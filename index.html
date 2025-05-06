@@ -12,19 +12,25 @@
     <div class="container">
         <h1>Quote Generator</h1>
         <div class="controls">
+            <span>Select Category:</span>
             <select id="category">
+              
                 <option value="science">Science</option>
                 <option value="motivational">Motivational</option>
                 <option value="inspiration">Inspirational</option>
             </select>
 
             <div class="font-control">
-                <button id="increase-font">A+</button>
-                <button id="decrease-font">A-</button>
+                <span>Increase or decrease font size:</span>
+                <button id="decrease-font">A<sup>-</sup></button>
+                <button id="increase-font">A<sup>+</sup></button>
+                <span>Switch to dark mode:</span>     
             </div>
-
+           
             <label class="switch">
+               
                 <input type="checkbox" id="theme-toggle">
+               
                 <span class="slider round"></span>
             </label>
         </div>

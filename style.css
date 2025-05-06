@@ -1,7 +1,7 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
-}
+} */
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -22,27 +22,72 @@ body.dark{
     text-align: center;
 }
 
+#category{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #f1d5d5;
+}
+
 .controls{
    justify-content: space-between;
+   padding: 30px;
 
 }
-.font-controls button{
+.controls span{
+    font-size: 18px;
+    font-weight: normal;
+    /* margin-top: 15px; */
+}
+
+
+#decrease-font{
+    border-radius: 7px;
+    border: none;
+    background-color: #f1d5d5;
+    font-weight: bolder;
+}
+#increase-font{
+    border-radius: 7px;
+    border: none;
+    background-color: #f1d5d5;
+    font-weight: bolder;
+}
+.font-control button{
     margin: 0 5px;
+  
+}
+.font-control span{
+    display: block;
+}
+.controls font-controls button{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    background-color: #f5bfbf;
 }
 
 #quote-box{
     padding: 20px;
-    border: 2px solid #ccc;
+    border: 2px solid black;
     border-radius: 10px;
     font-size: 1.2rem;
     min-height: 100px;
     margin-bottom: 20px;
+    max-width: 75%;
+    margin-left: 150px;
+    font-family: cursive;
 }
 
 .buttons button {
     margin: 5px;
     padding: 10px 15px;
     cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    background-color: #2bab2b;
+    font-weight: bolder;
   }
 
   .switch {
