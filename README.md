@@ -19,7 +19,11 @@ This app displays one quote at a time and allows users to navigate through diffe
 ---
 
 ## 📸 Screenshots
+![Image](https://github.com/user-attachments/assets/252fd10d-9040-4ac0-9778-789864b50ac5)
 
+![Image](https://github.com/user-attachments/assets/063f86e2-095d-4833-9b27-6b513a7c7d9e)
+
+![Image](https://github.com/user-attachments/assets/8402fa97-d8df-4a76-b956-ffe26f73da42)
 
 
 ---
@@ -33,10 +37,10 @@ This app displays one quote at a time and allows users to navigate through diffe
 ---
 
 ## 📁 Project Structure
-quote-generator/
-├── index.html
-├── style.css
-├── script.js
+quote-generator/<br>
+├── index.html<br>
+├── style.css<br>
+├── script.js<br>
 └── README.md
 ## 🌐 Live Demo
 
@@ -48,7 +52,7 @@ quote-generator/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/quote-generator.git
+   git clone https://github.com/yishanbista/quote-generator.git
 ✍️ Author
 Ishan Bista
 
