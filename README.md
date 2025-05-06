@@ -44,7 +44,7 @@ quote-generator/<br>
 └── README.md
 ## 🌐 Live Demo
 
-🔗 [View Live on Netlify]((https://bestquotegenerator.netlify.app/))
+🔗 [View Live on Netlify](https://bestquotegenerator.netlify.app/)
 
 ---
 
