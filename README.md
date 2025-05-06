@@ -19,11 +19,11 @@ This app displays one quote at a time and allows users to navigate through diffe
 ---
 
 ## 📸 Screenshots
-![Image](https://github.com/user-attachments/assets/252fd10d-9040-4ac0-9778-789864b50ac5)
+![Image](https://github.com/user-attachments/assets/56f3ad76-74bc-49ed-b8e3-32f9a9a39c51)
 
-![Image](https://github.com/user-attachments/assets/063f86e2-095d-4833-9b27-6b513a7c7d9e)
+![Image](https://github.com/user-attachments/assets/4b4a7c42-948f-4687-a9b2-10d36fe4a4e7)
 
-![Image](https://github.com/user-attachments/assets/8402fa97-d8df-4a76-b956-ffe26f73da42)
+![Image](https://github.com/user-attachments/assets/a9cc04bb-6543-4847-905b-826c69725fb1)
 
 
 ---
