@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 } */
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,56 +10,62 @@ body{
     color: black;
     transition: background-color 0.3s, color 0.3s;
 }
-body.dark{
+
+body.dark {
     background-color: #121212;
-  color: #f1f1f1;
+    color: #f1f1f1;
 }
 
-.container{
-   
+.container {
+
     margin: 50px auto;
     padding: 10px;
     text-align: center;
 }
 
-#category{
+#category {
     font-size: 20px;
     font-weight: bolder;
     background-color: #f1d5d5;
 }
 
-.controls{
-   justify-content: space-between;
-   padding: 30px;
+.controls {
+    justify-content: space-between;
+    padding: 30px;
 
 }
-.controls span{
+
+.controls span {
     font-size: 18px;
     font-weight: normal;
     /* margin-top: 15px; */
 }
 
 
-#decrease-font{
+#decrease-font {
     border-radius: 7px;
     border: none;
     background-color: #f1d5d5;
     font-weight: bolder;
 }
-#increase-font{
+
+#increase-font {
     border-radius: 7px;
     border: none;
     background-color: #f1d5d5;
     font-weight: bolder;
 }
-.font-control button{
+
+.font-control button {
     margin: 0 5px;
-  
+
 }
-.font-control span{
+
+.font-control span {
     display: block;
 }
-.controls font-controls button{
+
+.controls font-controls button {
     font-size: 20px;
     border-radius: 10px;
     border: none;
@@ -67,7 +73,7 @@ body.dark{
     background-color: #f5bfbf;
 }
 
-#quote-box{
+#quote-box {
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
@@ -88,22 +94,22 @@ body.dark{
     color: black;
     background-color: #2bab2b;
     font-weight: bolder;
-  }
+}
 
-  .switch {
+.switch {
     position: relative;
     display: inline-block;
     width: 40px;
     height: 20px;
-  }
+}
 
-  .switch input {
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
+}
 
-  .slider {
+.slider {
     position: absolute;
     cursor: pointer;
     background-color: #ccc;
@@ -113,9 +119,9 @@ body.dark{
     left: 0;
     right: 0;
     bottom: 0;
-  }
+}
 
-  .slider:before {
+.slider:before {
     content: "";
     height: 16px;
     width: 16px;
@@ -125,23 +131,23 @@ body.dark{
     background-color: white;
     border-radius: 50%;
     transition: 0.4s;
-  }
+}
 
-  input:checked + .slider {
+input:checked+.slider {
     background-color: #2196f3;
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(20px);
-  }
+}
 
-  @media (max-width: 500px) {
+input:checked+.slider:before {
+    transform: translateX(20px);
+}
+
+@media (max-width: 500px) {
     .controls {
-      flex-direction: column;
-      align-items: stretch;
+        flex-direction: column;
+        align-items: stretch;
     }
-  
+
     .font-controls {
-      margin: 10px 0;
+        margin: 10px 0;
     }
-  }
+}
