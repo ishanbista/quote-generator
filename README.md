@@ -52,7 +52,7 @@ quote-generator/<br>
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yishanbista/quote-generator.git
+   git clone https://github.com/ishanbista/quote-generator.git
 ✍️ Author
 Ishan Bista
 
